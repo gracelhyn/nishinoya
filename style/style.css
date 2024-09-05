@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+}
+
+#hero{
+	background-color: black;
+	position: relative;
+	height: 600px;
+}
+
+#hero-lastname{
+	font-size: 350px;
+	color: #E59649;
+	margin: 0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-left: 300px;
+}
+
+#hero-img{
+	position: absolute;
+}
+
+#hero-firstname{
+	color: #E59649;
+	margin: 0;
+	font-size: 200px;
+	padding-left: 300px;
+	position: absolute;
+	top: 370px;
+	letter-spacing: 20px;
+}
+
+#hero-team{
+	color: white;
+	font-size: 80px;
+	position: absolute;
+	padding-left: 900px;
+	top: 320px;
+	letter-spacing: 30px;
+}
+
+#hero-number{
+	color: #E59649;
+	font-size: 700px;
+	position: absolute;
+	top: -100px;
+	padding-left: 1000px;
+	font-weight: bold;
+	opacity: 0.2;
+}
