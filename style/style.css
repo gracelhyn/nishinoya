@@ -1,51 +1,129 @@
-body{
-	margin: 0;
+body, html{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
 }
 
-#hero{
-	background-color: black;
+h1, h4{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
 	position: relative;
+}
+
+
+.hero{
+	background-color: black;
 	height: 600px;
-}
-
-#hero-lastname{
-	font-size: 350px;
 	color: #E59649;
-	margin: 0;
-	padding-top: 70px;
-	padding-bottom: 70px;
-	padding-left: 300px;
+
+	.hero-lastname{
+		font-size: 300px;
+		padding-left: 320px;
+		font-weight: bolder;
+		line-height: 0.7;
+		padding-top: 120px;
+	}
+
+	.hero-firstname{
+		font-size: 150px;
+		padding-left: 320px;
+		letter-spacing: 15px;
+	}
 }
 
-#hero-img{
+.hero-team{
 	position: absolute;
-}
-
-#hero-firstname{
-	color: #E59649;
-	margin: 0;
-	font-size: 200px;
-	padding-left: 300px;
-	position: absolute;
-	top: 370px;
-	letter-spacing: 20px;
-}
-
-#hero-team{
 	color: white;
-	font-size: 80px;
-	position: absolute;
-	padding-left: 900px;
-	top: 320px;
+	padding-left: 49%;
+	font-size: 45px;
 	letter-spacing: 30px;
+	font-weight: bolder;
+	top: 16%;
 }
 
-#hero-number{
-	color: #E59649;
-	font-size: 700px;
+.hero-img{
 	position: absolute;
-	top: -100px;
-	padding-left: 1000px;
-	font-weight: bold;
+	top: -8%;
+	height: 775px;
+/*	height: 70.5%;*/
+}
+
+.hero-number{
+	position: absolute;
+	font-size: 620px;
+	font-weight: bolder;
+	left: 58%;
+	top: -8%;
 	opacity: 0.2;
+}
+
+.content{
+	height: 600px;
+/*	background-color: #E59649;*/
+	background-image: linear-gradient(black, #E59649);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+
+	.content-name{
+		font-size: 80px;
+		padding-top: 150px;
+		padding-left: 80px;
+	}
+
+	.content-position{
+		font-size: 30px;
+		padding-left: 80px;
+		letter-spacing: 20px;
+		font-weight: bold;
+	}
+
+	.content-img{
+		position: absolute;
+		top: 38%;
+		left:38%;
+		height: 530px;
+/*		height: 45%;*/
+	}
+}
+
+.about{
+	height: 500px;
+	background-color: #E59649;
+	color: white;
+
+	.about-img{
+		position: absolute;
+		top: 52.8%;
+		height: 860px;
+		left: 2px;
+	}
+
+	.about-name{
+		font-size: 100px;
+		padding-top: 50px;
+/*		padding-left: 300px;*/
+		text-align: right;
+		padding-right: 150px;
+	}
+
+	.about-desc{
+	color: white;
+	letter-spacing: 4px;
+  margin-left: 610px;
+  width: 50%;
+	line-height: 25px;
+	text-align: right;
+	}
+}
+
+.footer{
+	background-color: #E59649;
+	color: gray;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 10px;
 }
